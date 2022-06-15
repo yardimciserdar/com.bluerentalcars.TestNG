@@ -1,0 +1,60 @@
+POZİTİF TEST CASE
+
+1- https://www.bluerentalcars.com/ bu url ye git
+2- anasayfadaki login butonuna bas
+3- login aşaasında email adress kısmına doğru maili gir "customer@bluerentalcars.com"
+4- login aşamasında password kısmına doğru şifreyi gir "12345"
+5 -email ve şifreden sonra giriş yapabilmek için alt kısımdaki  login butonu ile giriş yap
+6- giriş yaptıktan sonra şifre için gelen pop'un  "kapat" bas
+7 -giriş yapıldıgını test etmek için  kullanınıcının isminin "Jordon Stark" oldugunu ontrol edelim
+
+NEGATİF TEST CASE
+  :TEST= YANLIŞ EMAİL ADRES DOĞRU ŞİFRE İLE GİREMEME
+
+1- https://www.bluerentalcars.com/ bu url ye git
+2- anasayfadaki login butonuna bas
+3- login aşaasında email adress kısmına yanlış maili gir "client@bluerentalcars.com"
+4- login aşamasında password kısmına doğru şifreyi gir "12345"
+5- giris butonuna tiklayiniz
+6- giremediğini kontrol etmek için sağ ustte gelen yazının "invalid credentials" oldugunu kontrol edelim.
+
+ TEST=DOGRU EMAİL ADRESİ YANLIŞ ŞİFRE İLE GİREMEME
+
+1- https://www.bluerentalcars.com/ bu url ye git
+2- anasayfadaki login butonuna bas
+3- login aşaasında email adress kısmına dogru maili gir "customer@bluerentalcars.com"
+4- login aşamasında password kısmına yanlış şifreyi gir "54321"
+5- giris butonuna tiklayiniz
+6- giremediğini kontrol etmek için sağ ustte gelen yazının "invalid credentials" oldugunu kontrol edelim.
+
+   TEST=YANLIŞ EMAİL ADRSİ YANLIŞ İFRE İLE GİREMEME
+
+1- https://www.bluerentalcars.com/ bu url ye git
+2- anasayfadaki login butonuna bas
+3- login aşaasında email adress kısmına yanlış maili gir "client@bluerentalcars.com"
+4- login aşamasında password kısmına yanlış şifreyi gir "54321"
+5- giris butonuna tiklayiniz
+6- giremediğini kontrol etmek için sağ ustte gelen yazının "invalid credentials" oldugunu kontrol edelim.
+
+
+   LOCATE LER
+1- Anasayfadaki login tusuna basmak
+2- Login sayfasindaki email kutusu
+3- Login sayfasindaki password kutusu
+4- Login sayfasindaki giris butonu
+   * sifre uyarisi gelirse -KAPAT- a basiniz
+5- Anasayfadaki kullanici profil ismi
+6- Login sayfasindaki giris yapilamadigini belirten yazi elementi
+
+
+ Kullanıcı oluşturma
+ 1-Anasayfaya git
+ 2-Anasayfadaki login tuşuna bas
+ 3-Create new user butonuna bas
+ 4-"Register" yazısının çıktığını test ediniz
+ 5-Gerekli bilgileri doldurduktan sonra Register butonuna basınız.
+ 6-"You are registered successfully" yazısını gördüğünüzü test ediniz
+ 7-Login sayfasındakı Login tuşuna basınız
+ 8-Doğru şekilde siteye giriş yaptığınızı test ediniz.
+ 9-Sayfayı kapatınız.
+
